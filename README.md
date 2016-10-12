@@ -9,6 +9,7 @@ Developing on Mac for iOS in Cardboard viewer.
 
 -------
 REQUIREMENTS  
+  
 Mac  
 Unity  
 Xcode  
@@ -17,7 +18,7 @@ Cardboard VR viewer
 
 -------
 INSTALLATION  
-
+  
 1) Clone project  
 2) Open it as a new project in Unity  
 3) Open the MainScene in the Assets folder  
@@ -27,13 +28,15 @@ INSTALLATION
    an error telling you to add a development Team. If so, do it (see below) then click run in Xcode to continue.
 
 -------
-REFERENCES:  
+REFERENCES  
+  
 https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html  
 https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game-ios-device-testing  
 
+--------
 ISSUES 
-
-Problem:
+  
+-- Problem:  
 Xcode build error: 
 Signing for "Unity-iPhone" requires a development team. Select a development team in the project editor.
 Code signing is required for product type 'Application' in SDK 'iOS 10.0'
@@ -44,20 +47,20 @@ Need to choose a development team in Xcode General project settings.
   - select "Unity-iPhone" target in inner sidebar
   - choose "General" in menu bar in window
   - in "Signing" section, select a Team from the popup
-
-
-Problem:  
+  
+  
+-- Problem:  
 Crashes on startup
-
+  
 Solution:  
 Unity bug workaround:  
   - in Unity Build Settings  
   - click "Player Settings..."  
   - in Inspector window, uncheck "Auto Graphics API"  
   - remove the Metal option
-
-
-Problem:  
+  
+  
+-- Problem:  
 Crashes on startup with message 
 "This app has crashed because it attempted to access privacy-sensitive data without a usage description. The app's Info.plist must contain an NSCameraUsageDescription key with a string value explaining to the user how the app uses this data."
 
