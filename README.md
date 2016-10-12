@@ -21,11 +21,9 @@ INSTALLATION
   
 1) Clone project  
 2) Open it as a new project in Unity  
-3) Open the MainScene in the Assets folder  
-4) Select File > Build & Run  
-5) When it asks where to save the build, choose "Builds" in the project folder  
-   It will take a while, importing assets in unity, switching to Xcode.  Xcode may stop with 
-   an error telling you to add a development Team. If so, do it (see below) then click run in Xcode to continue.
+3) Select File > Build & Run  
+4) When it asks where to save the build, create a folder called "Builds" in the project folder,  
+   and then save the build as "iOS" in that folder.
 
 -------
 REFERENCES  
