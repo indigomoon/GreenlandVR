@@ -14,6 +14,19 @@ https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game
 
 -------
 PROBLEM:  
+Xcode build error: 
+Signing for "Unity-iPhone" requires a development team. Select a development team in the project editor.
+Code signing is required for product type 'Application' in SDK 'iOS 10.0'
+
+SOLUTION:  
+Need to choose a development team in Xcode General project settings.
+  - in Xcode, select "Unity-iPhone" project in left sidebar
+  - select "Unity-iPhone" target in inner sidebar
+  - choose "General" in menu bar in window
+  - in "Signing" section, select a Team from the popup
+
+-------
+PROBLEM:  
 Crashes on startup
 
 SOLUTION:  
@@ -26,10 +39,10 @@ Crashes on startup with message
 
 SOLUTION:  
 Unity bug workaround: need to manually add an info.plist entry in Xcode.
-In Xcode:
-  choose Unity-iPhone project in left sidebar
-  choose "info" in menu bar in window
-  hover over last entry, click "+"
-  add item called "Privacy - Camera Usage Description"
+  - in Xcode, select "Unity-iPhone" project in left sidebar
+  - select "Unity-iPhone" target in inner sidebar
+  - choose "Info" in menu bar in window
+  - hover over last entry, click "+"
+  - add item called "Privacy - Camera Usage Description"
   
 --------
