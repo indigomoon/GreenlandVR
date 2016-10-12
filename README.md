@@ -1,15 +1,20 @@
-# greenlandVR
-Reality, Virtually hackathon at MIT
+# GreenlandVR
+Virtual reality visualization of Greenland glacier  
 
-Unity VR project for hackathon.
-Currently testing on Mac, target is iOS in Cardboard viewer.
+"Reality, Virtually, Hackathon" at MIT  
+http://www.realityvirtuallyhack.com  
+
+
+Developing on Mac for iOS in Cardboard viewer.
 
 REQUIREMENTS:  
 Mac  
 Unity  
 Xcode  
+iPhone  
 
 REFERENCES:  
+https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html
 https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game-ios-device-testing
 
 -------
