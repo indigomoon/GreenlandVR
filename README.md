@@ -4,8 +4,8 @@ Virtual reality visualization of Greenland glacier
 "Reality, Virtually, Hackathon" at MIT  
 http://www.realityvirtuallyhack.com  
 
-
-Developing on Mac for iOS in Cardboard viewer.
+This is just a barely working app that was developed at a weekend hackathon.
+Currently developing on Mac for iOS and Cardboard viewer.  
 
 -------
 REQUIREMENTS  
@@ -33,7 +33,9 @@ https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game
 
 --------
 ISSUES 
-  
+
+Here are some issues I ran into, and some solutions.  If you figure out how to solve other issues, please put the solution here.
+
 -- Problem:  
 Xcode build error: 
 Signing for "Unity-iPhone" requires a development team. Select a development team in the project editor.
