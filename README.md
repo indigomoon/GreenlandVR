@@ -30,7 +30,11 @@ PROBLEM:
 Crashes on startup
 
 SOLUTION:  
-Unity bug workaround: in Unity build settings, uncheck auto graphics API, remove the Metal option
+Unity bug workaround:  
+  - in Unity Build Settings  
+  - click "Player Settings..."  
+  - in Inspector window, uncheck "Auto Graphics API"  
+  - remove the Metal option
 
 -------
 PROBLEM:  
