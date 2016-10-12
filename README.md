@@ -4,12 +4,12 @@ Reality, Virtually hackathon at MIT
 Unity VR project for hackathon.
 Currently testing on Mac, target is iOS in Cardboard viewer.
 
-Requirements:
-Mac
-Unity
-Xcode
+REQUIREMENTS:  
+Mac  
+Unity  
+Xcode  
 
-References:
+REFERENCES:  
 https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game-ios-device-testing
 
 -------
