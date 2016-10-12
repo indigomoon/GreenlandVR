@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 91dd24260492e44998d7b942b47140c7
+timeCreated: 1476018364
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Cessna_Body.001
+    100004: Cessna_BodyGlassLess
+    100006: Cessna_ControlSurface_L
+    100008: Cessna_ControlSurface_R
+    100010: Cessna_Front_wheel
+    100012: CEssna_Left_wheel
+    100014: Cessna_Propeller
+    100016: Cessna_Right_wheel
+    100018: Cessna_TailWing_L
+    100020: Cessna_TailWing_R
+    100022: Cessna_WheelStruts
+    100024: Cessna_Wings
+    100026: Cockpit
+    100028: CockpitControl
+    100030: Controller
+    100032: Cube
+    100034: Lamp
+    100036: //RootNode
+    400000: Camera
+    400002: Cessna_Body.001
+    400004: Cessna_BodyGlassLess
+    400006: Cessna_ControlSurface_L
+    400008: Cessna_ControlSurface_R
+    400010: Cessna_Front_wheel
+    400012: CEssna_Left_wheel
+    400014: Cessna_Propeller
+    400016: Cessna_Right_wheel
+    400018: Cessna_TailWing_L
+    400020: Cessna_TailWing_R
+    400022: Cessna_WheelStruts
+    400024: Cessna_Wings
+    400026: Cockpit
+    400028: CockpitControl
+    400030: Controller
+    400032: Cube
+    400034: Lamp
+    400036: //RootNode
+    2300000: Cessna_Body.001
+    2300002: Cessna_BodyGlassLess
+    2300004: Cessna_ControlSurface_L
+    2300006: Cessna_ControlSurface_R
+    2300008: Cessna_Front_wheel
+    2300010: CEssna_Left_wheel
+    2300012: Cessna_Propeller
+    2300014: Cessna_Right_wheel
+    2300016: Cessna_TailWing_L
+    2300018: Cessna_TailWing_R
+    2300020: Cessna_WheelStruts
+    2300022: Cessna_Wings
+    2300024: Cockpit
+    2300026: CockpitControl
+    2300028: Controller
+    2300030: Cube
+    3300000: Cessna_Body.001
+    3300002: Cessna_BodyGlassLess
+    3300004: Cessna_ControlSurface_L
+    3300006: Cessna_ControlSurface_R
+    3300008: Cessna_Front_wheel
+    3300010: CEssna_Left_wheel
+    3300012: Cessna_Propeller
+    3300014: Cessna_Right_wheel
+    3300016: Cessna_TailWing_L
+    3300018: Cessna_TailWing_R
+    3300020: Cessna_WheelStruts
+    3300022: Cessna_Wings
+    3300024: Cockpit
+    3300026: CockpitControl
+    3300028: Controller
+    3300030: Cube
+    4300000: Cube
+    4300002: Controller
+    4300004: Cessna_Body.001
+    4300006: CockpitControl
+    4300008: Cockpit
+    4300010: Cessna_BodyGlassLess
+    4300012: Cessna_Wings
+    4300014: Cessna_Propeller
+    4300016: Cessna_TailWing_R
+    4300018: Cessna_Right_wheel
+    4300020: Cessna_TailWing_L
+    4300022: Cessna_ControlSurface_R
+    4300024: Cessna_WheelStruts
+    4300026: Cessna_ControlSurface_L
+    4300028: CEssna_Left_wheel
+    4300030: Cessna_Front_wheel
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
