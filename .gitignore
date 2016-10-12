@@ -1,9 +1,7 @@
-# In theory, should be able to delete the Library directory, 
-# but in Unity 5 leaving it out is said to corrupt the project.  
-# Probably a bug; leave it in just to be safe.
-#
+# In order to safely ignore or delete the Library folder, must have "Visible Meta Files" enabled
+# in Project Settings > Editor.
 
-#/[Ll]ibrary/
+/[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
