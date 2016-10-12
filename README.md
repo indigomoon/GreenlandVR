@@ -14,8 +14,8 @@ Xcode
 iPhone  
 
 REFERENCES:  
-https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html
-https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game-ios-device-testing
+https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html  
+https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game-ios-device-testing  
 
 -------
 PROBLEM:  
