@@ -1,5 +1,5 @@
 # In theory, should be able to delete the Library directory, 
-# but in Unity 5 leaving it out is said to corrupts the project.  
+# but in Unity 5 leaving it out is said to corrupt the project.  
 # Probably a bug; leave it in just to be safe.
 #
 
