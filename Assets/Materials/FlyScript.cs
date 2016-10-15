@@ -4,6 +4,7 @@ using System.Collections;
 public class FlyScript : MonoBehaviour {
 
 	public static int speed = 0;
+	public static int topspeed = 357;
 	//public float elevation = 0;
 	public Transform cameraObject;
 	Transform initialposition;
@@ -20,7 +21,7 @@ public class FlyScript : MonoBehaviour {
 		} else if (Input.GetAxis("Mouse X")>.2)
        		{
 			transform.position = initialposition.position;
-		} else if (speed<100){
+		} else if (speed<topspeed){
 		    	transform.position += cameraObject.forward * speed * Time.deltaTime;
 			speed+=10;
                 } else {
