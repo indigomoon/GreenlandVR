@@ -4,13 +4,14 @@ Virtual reality visualization of Greenland glacier
 "Reality, Virtually, Hackathon" at MIT  
 http://www.realityvirtuallyhack.com  
 
-This is just a barely working app that was developed at a weekend hackathon.
-Currently developing on Mac for iOS and Cardboard viewer.  
+This is a simple app that was developed by team "Ice Breakers" at a weekend hackathon devoted to virtual and augmented reality.
+At various times it was working on a Samsung phone in a GearVR,
+and an iPhone in a Google Cardboard.  
 
 -------
 REQUIREMENTS  
 
-These configurations have been tested:
+These are the requirements for some configurations we have tried:
 
 iPhone target:
 - Mac  
@@ -29,7 +30,9 @@ Android phone target:
 - Unity
 - Google VR SDK for Unity
 - Android SDK
-- Android phone
+- Oculus run-time library
+- Samsung phone  
+- Samsung GearVR
 
 -------
 INSTALLATION  
@@ -49,7 +52,7 @@ https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game
 --------
 ISSUES
 
-Here are some issues I ran into, and some solutions.  If you figure out how to solve other issues, please put the solution here.
+Here are some issues we ran into, and some solutions.  If you figure out how to solve other issues, please put the solution here.
 
 ======
 Problem:  
@@ -89,5 +92,7 @@ Unity bug workaround: need to manually add an info.plist entry in Xcode.
   - choose "Info" in menu bar in window
   - hover over last entry, click "+"
   - add item called "Privacy - Camera Usage Description"
+
+=====  
 
 --------
