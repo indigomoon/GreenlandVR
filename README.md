@@ -9,16 +9,31 @@ Currently developing on Mac for iOS and Cardboard viewer.
 
 -------
 REQUIREMENTS  
-  
-Mac  
-Unity  
-Xcode  
-iPhone  
-Cardboard VR viewer  
+
+These configurations have been tested:
+
+iPhone target:
+- Mac  
+- Unity  
+- Google VR SDK for Unity
+- Xcode  
+- iPhone  
+- Google Cardboard-compatible VR viewer  
+
+macOS desktop target:
+- Mac
+- Unity
+
+Android phone target:
+- Windows/Linux
+- Unity
+- Google VR SDK for Unity
+- Android SDK
+- Android phone
 
 -------
 INSTALLATION  
-  
+
 1) Clone project  
 2) Open it as a new project in Unity  
 3) Select File > Build & Run  
@@ -27,17 +42,18 @@ INSTALLATION
 
 -------
 REFERENCES  
-  
+
 https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html  
 https://unity3d.com/learn/tutorials/topics/mobile-touch/building-your-unity-game-ios-device-testing  
 
 --------
-ISSUES 
+ISSUES
 
 Here are some issues I ran into, and some solutions.  If you figure out how to solve other issues, please put the solution here.
 
--- Problem:  
-Xcode build error: 
+======
+Problem:  
+Xcode build error:
 Signing for "Unity-iPhone" requires a development team. Select a development team in the project editor.
 Code signing is required for product type 'Application' in SDK 'iOS 10.0'
 
@@ -47,21 +63,23 @@ Need to choose a development team in Xcode General project settings.
   - select "Unity-iPhone" target in inner sidebar
   - choose "General" in menu bar in window
   - in "Signing" section, select a Team from the popup
-  
-  
--- Problem:  
+
+
+======
+Problem:  
 Crashes on startup
-  
+
 Solution:  
 Unity bug workaround:  
   - in Unity Build Settings  
   - click "Player Settings..."  
   - in Inspector window, uncheck "Auto Graphics API"  
   - remove the Metal option
-  
-  
--- Problem:  
-Crashes on startup with message 
+
+
+=====
+Problem:  
+Crashes on startup with message
 "This app has crashed because it attempted to access privacy-sensitive data without a usage description. The app's Info.plist must contain an NSCameraUsageDescription key with a string value explaining to the user how the app uses this data."
 
 Solution:  
@@ -71,5 +89,5 @@ Unity bug workaround: need to manually add an info.plist entry in Xcode.
   - choose "Info" in menu bar in window
   - hover over last entry, click "+"
   - add item called "Privacy - Camera Usage Description"
-  
+
 --------
